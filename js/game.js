@@ -1,5 +1,5 @@
-player_score=0;
-ai_score=0;
+var player_score=0;
+var ai_score=0;
 
 function result(result){
     var tag = document.createElement("div");
@@ -7,6 +7,10 @@ function result(result){
     var element = document.getElementById("result");
     element.appendChild(tag);
     tag.className='animation';
+    tag.classList.add();
+    setTimeout(function(){
+        document.getElementById('result').removeChild(document.getElementById('result').firstChild);
+   },1500);
     document.getElementById('score').innerHTML=player_score+" : "+ai_score;
 }
 
