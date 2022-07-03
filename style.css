@@ -66,6 +66,7 @@ body{
 }
 #result div{
     position: absolute;
+    white-space: nowrap;
     left: 50%;
     top: 75%;
     -webkit-transform: translate(-50%, -50%);
