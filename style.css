@@ -53,18 +53,22 @@ body{
     width: clamp(4.375rem, 3.375rem + 5vw, 9.375rem);
     flex: 33.33%;
     padding: 16px;
+    cursor: pointer;
 }
 .rock,.paper,.scissors{
     transition: 0.25s;
 }
 .rock:hover{
     filter: drop-shadow(0px 0px 15px #f26651);
+    color:#f26651;
 }
 .paper:hover{
-    filter: drop-shadow(0px 0px 15px #63bdba)
+    filter: drop-shadow(0px 0px 15px #63bdba);
+    color: #63bdba;
 }
 .scissors:hover{
-    filter: drop-shadow(0px 0px 15px #f6bd4a)
+    filter: drop-shadow(0px 0px 15px #f6bd4a);
+    color:#f6bd4a ;
 }
 #result{
     font-family: 'Kanit', sans-serif;
